@@ -1,0 +1,44 @@
+.grid-app {
+    display: grid;
+    grid-template-areas: 
+        "side-bar main-content"
+        "status-bar status-bar";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 20px;
+    height: 100vh;
+}
+
+.grid-app.explorer-open {
+    grid-template-areas:
+        "side-bar explorer main-content"
+        "status-bar status-bar status-bar";
+    grid-template-columns: auto 200px 1fr;
+}
+
+
+.explorer{
+    grid-area: explorer;
+    background-color: #282828;
+}
+
+.side-bar{
+    grid-area: side-bar;
+    background-color: #383838;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content {
+    grid-area: main-content;
+    background-color: #1e1e1e;
+
+}
+
+.status-bar{
+    grid-area: status-bar;
+    background-color: #007acc;
+
+}
+

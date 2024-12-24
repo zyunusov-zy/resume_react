@@ -1,0 +1,29 @@
+.icons{
+    padding: 0.5em;
+    cursor: pointer;
+    height: 2em;
+    width: 2em;
+    color: #808080;
+    border: 2px solid transparent;
+    transition: color 0.3s ease, border-left 0.3s ease;
+}
+
+.icons:hover
+{
+    color: #ffffff;
+}
+
+.icons.selected
+{
+    color: #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+.sideBar-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+
+}
