@@ -17,8 +17,15 @@
 
 
 .explorer{
+    color: rgb(184, 184, 184);
     grid-area: explorer;
     background-color: #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Roboto", serif;
+    width: 100%;
 }
 
 .side-bar{

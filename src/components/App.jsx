@@ -1,9 +1,10 @@
 import '../styles/App.css'
 import SideBar from './SideBar.jsx'
+import Explorer from './Explorer.jsx'
 import { useState, useEffect } from 'react'
 
 function App() {
-  const [isExplorerOpen, setIsExplorerOpen] = useState(false);
+  const [isExplorerOpen, setIsExplorerOpen] = useState(true);
 
   const toggleExplorer = () => {
     setIsExplorerOpen(!isExplorerOpen);
@@ -31,7 +32,7 @@ function App() {
       <div className="side-bar">
         <SideBar toggleExplorer={toggleExplorer} />
       </div>
-      {isExplorerOpen && (<div className='explorer'>explorer current</div>)}
+      {isExplorerOpen && (<div className='explorer'><Explorer /></div>)}
       <div className="main-content">
         <div className="top-bar">
 
