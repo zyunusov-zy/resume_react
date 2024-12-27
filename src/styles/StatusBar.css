@@ -51,7 +51,7 @@
     background-color: #339fdc;
 }
 
-.status-error
+.status-error, .right-status a
 {
     display: flex;
     justify-content: center;
@@ -76,4 +76,8 @@
     align-items: center;
     gap: 1em;
     padding-right: 1em;
+}
+
+.right-status a:hover {
+    background-color: #339fdc;
 }
