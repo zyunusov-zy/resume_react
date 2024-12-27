@@ -1,6 +1,7 @@
 import '../styles/App.css'
 import SideBar from './SideBar.jsx'
 import Explorer from './Explorer.jsx'
+import StatusBar from './StatusBar.jsx'
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
 
       </div>
       <div className="status-bar">
-
+        <StatusBar />
       </div>
     </div>
   )

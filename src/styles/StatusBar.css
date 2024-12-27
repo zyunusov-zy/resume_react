@@ -1,0 +1,79 @@
+.left-status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.remote-window{
+    background-color: rgb(46, 132, 97);
+    width: 2.5em;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.remote-window:hover
+{
+    background-color: rgb(66, 152, 117);
+}
+
+.main-status
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.main-status, .right-status {
+    font-size: 14px;
+}
+
+.main-source
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.main-source:hover
+{
+    background-color: #339fdc;
+}
+
+.status-error
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.status-error:hover
+{
+    background-color: #339fdc;
+}
+
+.right-status
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding-right: 1em;
+}

@@ -46,6 +46,9 @@
 .status-bar{
     grid-area: status-bar;
     background-color: #007acc;
-
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
