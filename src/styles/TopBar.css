@@ -1,0 +1,30 @@
+.topbar-file
+{
+    padding: 5px 10px 0 10px;
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.topbar-file.selected {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 0;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.close-button:hover
+{
+    background-color: #2a4f6e;
+}

@@ -40,6 +40,17 @@
 .main-content {
     grid-area: main-content;
     background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #383838;
+    font-family: "Roboto", serif;
 
 }
 

@@ -40,10 +40,10 @@ function App() {
       <div className="side-bar">
         <SideBar toggleExplorer={toggleExplorer} />
       </div>
-      {isExplorerOpen && (<div className='explorer'><Explorer files={files} setSelectedFile={setSelectedFile}/></div>)}
+      {isExplorerOpen && (<div className='explorer'><Explorer files={files} setSelectedFile={setSelectedFile} selectedFile={selectedFile}/></div>)}
       <div className="main-content">
         <div className="top-bar">
-          <TopBar files={files} setSelectedFile={setSelectedFile}/>
+          <TopBar files={files} setSelectedFile={setSelectedFile} selectedFile={selectedFile}/>
         </div>
 
       </div>

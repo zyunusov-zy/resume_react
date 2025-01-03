@@ -3,7 +3,7 @@ import { useState } from "react";
 import File from "./File.jsx"
 import PropTypes from 'prop-types';
 
-const Explorer = ({files, setSelectedFile}) =>{
+const Explorer = ({files, setSelectedFile, selectedFile}) =>{
 
     const [isDropdownOpen, setIsDropDownOpen] = useState(true);
     const [isSelectedHome, setIsSelectedHome] = useState(false)
@@ -40,7 +40,12 @@ const Explorer = ({files, setSelectedFile}) =>{
                 <ul className={`dropdown-menu ${isDropdownOpen ? 'open' : 'closed'}`}>
                     <li>
                     {files.map((file, index) => (
-                        <File key={index} name={file} onClick={setSelectedFile}/>
+                        <File
+                        key={index}
+                        name={file}
+                        onClick={setSelectedFile}
+                        className={file === selectedFile ? "explorer-file selected" : "explorer-file"}
+                        />
                     ))}
                     </li>
                 </ul>
@@ -52,6 +57,7 @@ const Explorer = ({files, setSelectedFile}) =>{
 Explorer.propTypes = {
     files: PropTypes.arrayOf(PropTypes.string).isRequired,
     setSelectedFile: PropTypes.func.isRequired,
+    selectedFile: PropTypes.string.isRequired,
 };
 
 export default Explorer;
