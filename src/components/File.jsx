@@ -1,8 +1,12 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 const File = ({name, onClick, className}) => {
     return (
-        <a href="#" onClick={() => onClick(name)} className={`${className || ''} `}>
+        <Link 
+            to={`/${name.replace(".md", "")}`}
+            onClick={() => onClick(name)} 
+            className={`${className || ''} `}>
             <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -38,7 +42,7 @@ const File = ({name, onClick, className}) => {
                     ></path>
                     </svg>
             )}
-        </a>
+        </Link>
     );
 };
 

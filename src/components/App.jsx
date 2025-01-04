@@ -4,6 +4,7 @@ import Explorer from './Explorer.jsx'
 import StatusBar from './StatusBar.jsx'
 import TopBar from './TopBar.jsx'
 import { useState, useEffect } from 'react'
+import { Outlet } from 'react-router-dom'
 
 function App() {
   const [isExplorerOpen, setIsExplorerOpen] = useState(true);
@@ -45,7 +46,9 @@ function App() {
         <div className="top-bar">
           <TopBar files={files} setSelectedFile={setSelectedFile} selectedFile={selectedFile}/>
         </div>
-
+        <div className="content">
+          <Outlet />
+        </div>
       </div>
       <div className="status-bar">
         <StatusBar />

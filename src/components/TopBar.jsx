@@ -8,10 +8,10 @@ const TopBar  = ({files, setSelectedFile, selectedFile}) => {
         <>
             {files.map((file, index) => (
                 <File 
-                key={index} 
-                name={file} 
-                onClick={setSelectedFile} 
-                className={file === selectedFile ? "topbar-file selected" : "topbar-file"}
+                    key={index} 
+                    name={file} 
+                    onClick={setSelectedFile} 
+                    className={file === selectedFile ? "topbar-file selected" : "topbar-file"}
                 />
             ))}
         </>
