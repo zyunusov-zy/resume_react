@@ -1,0 +1,64 @@
+{
+    "skills": {
+        "header": "💻 Skills",
+        "tech_stack": "General Tech Stacks",
+        "tech_stack_skills": {
+            "sys_ad": "System Administration",
+            "low_lvl": "Low-level programming",
+            "sof": "Software Engineering",
+            "web": "Web Development (Frontend & Backend) and Networking"
+        },
+        "prog_lan": "Programming Languages",
+        "prog_skills": {
+            "c": "C",
+            "c_plus": "C++",
+            "python": "Python(Django)",
+            "javascript": "JavaScript(React.js and Three.js)"
+        },
+        "databases" : "Databases",
+        "databases_skill" : {
+            "post" : "PostgreSQL",
+            "lite" : "SQLite"
+        },
+        "techno" : "Technologies",
+        "tech_sk" : {
+            "git" : "Git",
+            "docker" : "Docker",
+            "unix" : "Unix(Ubuntu)",
+            "nginx" : "Nginx",
+            "redis" : "Redis"
+        }
+    },
+    "education": {
+        "header" : "👨‍🎓 Education",
+        "university1" : {
+            "date" : "2019 - 2021",
+            "name" : "Riga Technical University",
+            "fac" : "Computer Systems"
+        },
+        "university2" : {
+            "date" : "2022 - 2024",
+            "name" : "ISMA University of Applied Sciences",
+            "fac" : "Information Systems and Software Engineering",
+            "thesis" : "Thesis on 'Developing a SPA with Chat and Pong Game Integration: A Full Stack Web Application'."
+        },
+        "university3" : {
+            "date" : "2021 - 2024",
+            "name" : "42 Wolfsburg",
+            "fac" : "Programming School ( 42 Ecole)",
+            "thesis" : "Relevant practice real world projects."
+        }
+    },
+    "certificates" : {
+        "header" : "🥇 Certificates",
+        "cert": "42 Programming School Certificate of Successfully Completing Core Curriculum"
+    },
+    "languages": {
+        "header": "🌐 Languages",
+        "lang_skills": {
+            "english": "English",
+            "russian": "Russian",
+            "uzbek": "Uzbek"
+        }
+    }
+}

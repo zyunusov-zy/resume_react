@@ -27,3 +27,35 @@
     gap: 1.5em;
 
 }
+
+.sideBar-bottom{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.sideBar-bottom > button {
+    width: 100%;
+    outline: none;
+    background-color: #8fbc8f;
+    font-size: 18px;
+    padding: 5px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sideBar-bottom > button:hover {
+    background: linear-gradient(to bottom, #8fbc8f, #7aa77a);
+    color: white;
+}
+
+
+.sideBar-bottom > button:active {
+    background-color: #6f9e6f;
+    color: black;
+}
