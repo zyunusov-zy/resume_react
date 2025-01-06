@@ -1,11 +1,18 @@
-
-
+import Skills from "./Skills";
+import Projects from "./Projects";
+import Certificates from "./Certificates";
+import Education from "./Education";
 
 const Overview = () => {
     return (  
-        <>
-            HERE I AM
-        </>
+        <div>
+            <Skills></Skills>
+            <Projects></Projects>
+            <Education></Education>
+            <Certificates></Certificates>
+
+
+        </div>
     );
 };
 

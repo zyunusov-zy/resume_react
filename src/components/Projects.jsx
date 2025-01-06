@@ -23,7 +23,8 @@ return (
                 <li key={idx} className="mb-4">
                 {/* Project Name as a Link */}
                 <a
-                    href="#"
+                    href={project.link}
+                    target="_blank" rel="noopener noreferrer"
                     className="text-blue-400 hover:underline text-lg font-semibold"
                 >
                     {project.name}

@@ -71,42 +71,49 @@
           "name": "libft",
           "purpose": "Recreated the standard C library functions from scratch.",
           "technologies_used": ["C"],
-          "link" : "" 
+          "link" : "https://github.com/Cursedzyko/libft" 
         },
         {
           "name": "ft_printf",
           "purpose": "Implemented a custom printf function to mimic the standard printf.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/42projects" 
         },
         {
           "name": "get_next_line",
           "purpose": "Developed a function to read lines from a file efficiently.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/42projects" 
         },
         {
           "name": "push_swap",
           "purpose": "Created an algorithm to sort two stacks using sorting algorithms like insertion sort.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/push_swap" 
         },
         {
           "name": "so_long",
           "purpose": "Developed a simple 2D game.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/so_long" 
         },
         {
           "name": "pipex",
           "purpose": "Implemented command forking and piping using system calls.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/pipex"
         },
         {
           "name": "Philosophers",
           "purpose": "Solved the dining philosophers problem using multithreading.",
-          "technologies_used": ["C", "Multithreading"]
+          "technologies_used": ["C", "Multithreading"],
+          "link" : "https://github.com/Cursedzyko/Philosophers" 
         },
         {
           "name": "minishell",
           "purpose": "Created a functional shell that mimics Bash shell features.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/minishell" 
         }
       ]
     },
@@ -116,7 +123,8 @@
         {
           "name": "NetPractice",
           "purpose": "Explored networking concepts such as MAC addresses and IP configurations.",
-          "technologies_used": ["Networking"]
+          "technologies_used": ["Networking"],
+          "link" : "https://github.com/Cursedzyko/NetPractice" 
         },
         {
           "name": "born2beroot",
@@ -126,7 +134,8 @@
         {
           "name": "Inception",
           "purpose": "Learned and implemented Docker concepts, including creating Docker images and containers for nginx, WordPress, and MariaDB.",
-          "technologies_used": ["Docker"]
+          "technologies_used": ["Docker"],
+          "link" : "https://github.com/Cursedzyko/Inception" 
         }
       ]
     },
@@ -136,17 +145,20 @@
         {
           "name": "CPPModules",
           "purpose": "Started exploring Object-Oriented Programming and STL containers.",
-          "technologies_used": ["C++"]
+          "technologies_used": ["C++"],
+          "link" : "https://github.com/Cursedzyko/CPP_Modules" 
         },
         {
           "name": "webserv",
           "purpose": "Created a web server implementing HTTP using socket programming.",
-          "technologies_used": ["C++", "Socket Programming"]
+          "technologies_used": ["C++", "Socket Programming"],
+          "link" : "https://github.com/Cursedzyko/webserv"
         },
         {
           "name": "Cub3d",
           "purpose": "Built a basic 3D game engine using raycasting.",
-          "technologies_used": ["C"]
+          "technologies_used": ["C"],
+          "link" : "https://github.com/Cursedzyko/Cub3d"
         }
       ]
     },
@@ -156,12 +168,14 @@
         {
           "name": "ft_transcendence",
           "purpose": "Created a single-page application with chat and multiplayer game features.",
-          "technologies_used": ["HTML", "CSS", "VanillaJS", "Django", "Three.js", "PostgreSQL", "WebSockets", "Channels"]
+          "technologies_used": ["HTML", "CSS", "VanillaJS", "Django", "Three.js", "PostgreSQL", "WebSockets", "Channels"],
+          "link" : "https://github.com/Cursedzyko/ft_transcendence"
         },
         {
           "name": "Visual Studio Resume",
           "purpose": "Built a dynamic resume using React.js.",
-          "technologies_used": ["React.js"]
+          "technologies_used": ["React.js"],
+          "link" : "https://github.com/Cursedzyko/resume-react"
         }
       ]
     },
@@ -171,12 +185,14 @@
         {
           "name": "Python for Data Science",
           "purpose": "Currently learning data science concepts using Python.",
-          "technologies_used": ["Python"]
+          "technologies_used": ["Python"],
+          "link" : "https://github.com/Cursedzyko/Python_for_db_ps"
         },
         {
           "name": "Cybersecurity Piscine",
           "purpose": "Worked on multiple projects including hidden services (TOR), metadata analysis, reverse engineering, and developing a local malware program.",
-          "technologies_used": ["Python", "Cybersecurity Tools"]
+          "technologies_used": ["Python", "Cybersecurity Tools"],
+          "link" : "https://github.com/Cursedzyko/cybersecurity_piscine"
         }
       ]
     }
