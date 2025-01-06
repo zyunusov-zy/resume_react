@@ -1,8 +1,8 @@
 .icons{
     padding: 0.5em;
     cursor: pointer;
-    height: 2em;
-    width: 2em;
+    height: 3rem;
+    width: 3rem;
     color: #808080;
     border: 2px solid transparent;
     transition: color 0.3s ease, border-left 0.3s ease;
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5em;
+    gap: 1em;
 
 }
 

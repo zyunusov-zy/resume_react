@@ -60,5 +60,125 @@
             "russian": "Russian",
             "uzbek": "Uzbek"
         }
+    },
+    "projects": [
+    {
+      "header_main" : "🧪 Projects",
+      "overview": "These projects have equipped me with a robust understanding of programming fundamentals, problem-solving, and advanced technical concepts in various domains, including systems programming, web development, and cybersecurity.",
+      "header": "💻 C Programming Projects",
+      "items": [
+        {
+          "name": "libft",
+          "purpose": "Recreated the standard C library functions from scratch.",
+          "technologies_used": ["C"],
+          "link" : "" 
+        },
+        {
+          "name": "ft_printf",
+          "purpose": "Implemented a custom printf function to mimic the standard printf.",
+          "technologies_used": ["C"]
+        },
+        {
+          "name": "get_next_line",
+          "purpose": "Developed a function to read lines from a file efficiently.",
+          "technologies_used": ["C"]
+        },
+        {
+          "name": "push_swap",
+          "purpose": "Created an algorithm to sort two stacks using sorting algorithms like insertion sort.",
+          "technologies_used": ["C"]
+        },
+        {
+          "name": "so_long",
+          "purpose": "Developed a simple 2D game.",
+          "technologies_used": ["C"]
+        },
+        {
+          "name": "pipex",
+          "purpose": "Implemented command forking and piping using system calls.",
+          "technologies_used": ["C"]
+        },
+        {
+          "name": "Philosophers",
+          "purpose": "Solved the dining philosophers problem using multithreading.",
+          "technologies_used": ["C", "Multithreading"]
+        },
+        {
+          "name": "minishell",
+          "purpose": "Created a functional shell that mimics Bash shell features.",
+          "technologies_used": ["C"]
+        }
+      ]
+    },
+    {
+      "header": "🌐 Advanced Networking and Systems",
+      "items": [
+        {
+          "name": "NetPractice",
+          "purpose": "Explored networking concepts such as MAC addresses and IP configurations.",
+          "technologies_used": ["Networking"]
+        },
+        {
+          "name": "born2beroot",
+          "purpose": "Configured a Debian Linux server on VirtualBox to enhance OS knowledge.",
+          "technologies_used": ["Linux", "VirtualBox"]
+        },
+        {
+          "name": "Inception",
+          "purpose": "Learned and implemented Docker concepts, including creating Docker images and containers for nginx, WordPress, and MariaDB.",
+          "technologies_used": ["Docker"]
+        }
+      ]
+    },
+    {
+      "header": "🔧 C++ Projects",
+      "items": [
+        {
+          "name": "CPPModules",
+          "purpose": "Started exploring Object-Oriented Programming and STL containers.",
+          "technologies_used": ["C++"]
+        },
+        {
+          "name": "webserv",
+          "purpose": "Created a web server implementing HTTP using socket programming.",
+          "technologies_used": ["C++", "Socket Programming"]
+        },
+        {
+          "name": "Cub3d",
+          "purpose": "Built a basic 3D game engine using raycasting.",
+          "technologies_used": ["C"]
+        }
+      ]
+    },
+    {
+      "header": "🌟 Full-Stack and Web Development",
+      "items": [
+        {
+          "name": "ft_transcendence",
+          "purpose": "Created a single-page application with chat and multiplayer game features.",
+          "technologies_used": ["HTML", "CSS", "VanillaJS", "Django", "Three.js", "PostgreSQL", "WebSockets", "Channels"]
+        },
+        {
+          "name": "Visual Studio Resume",
+          "purpose": "Built a dynamic resume using React.js.",
+          "technologies_used": ["React.js"]
+        }
+      ]
+    },
+    {
+      "header": "🔍 Data Science and Cybersecurity",
+      "items": [
+        {
+          "name": "Python for Data Science",
+          "purpose": "Currently learning data science concepts using Python.",
+          "technologies_used": ["Python"]
+        },
+        {
+          "name": "Cybersecurity Piscine",
+          "purpose": "Worked on multiple projects including hidden services (TOR), metadata analysis, reverse engineering, and developing a local malware program.",
+          "technologies_used": ["Python", "Cybersecurity Tools"]
+        }
+      ]
     }
+  ]
 }
