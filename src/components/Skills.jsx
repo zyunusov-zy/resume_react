@@ -53,7 +53,6 @@ const Skills = () => {
                     <li>{t('skills.tech_sk.git')}</li>
                     <li>{t('skills.tech_sk.docker')}</li>
                     <li>{t('skills.tech_sk.unix')}</li>
-                    <li>{t('skills.tech_sk.nginx')}</li>
                     <li>{t('skills.tech_sk.redis')}</li>
                 </ul>
                 </div>

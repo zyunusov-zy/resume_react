@@ -1,141 +1,146 @@
 {
-    "skills": {
-        "header": "💻 Skills",
-        "tech_stack": "General Tech Stacks",
-        "tech_stack_skills": {
-            "sys_ad": "System Administration",
-            "low_lvl": "Low-level programming",
-            "sof": "Software Engineering",
-            "web": "Web Development (Frontend & Backend) and Networking"
-        },
-        "prog_lan": "Programming Languages",
-        "prog_skills": {
-            "c": "C",
-            "c_plus": "C++",
-            "python": "Python(Django)",
-            "javascript": "JavaScript(React.js and Three.js)"
-        },
-        "databases" : "Databases",
-        "databases_skill" : {
-            "post" : "PostgreSQL",
-            "lite" : "SQLite"
-        },
-        "techno" : "Technologies",
-        "tech_sk" : {
-            "git" : "Git",
-            "docker" : "Docker",
-            "unix" : "Unix(Ubuntu)",
-            "nginx" : "Nginx",
-            "redis" : "Redis"
-        }
+  "overview": {
+    "header": "🌟 Overview",
+    "summary_header": "📝 Resume",
+    "summary_text": "Hello! My name is Zafarbek Yunusov, and I am 23 years old. I am seeking a job in the field of information technology, particularly in software development and system administration. My experience includes programming in C, C++, Python, as well as web development using JavaScript, React.js, and Django. I actively participate in projects with real-world requirements, such as creating games, servers, and web applications. Additionally, I am interested in cybersecurity and data science, which enables me to be a versatile specialist in the technology domain."
+  },
+  "skills": {
+    "header": "💻 Skills",
+    "tech_stack": "General Tech Stacks",
+    "tech_stack_skills": {
+      "sys_ad": "System Administration",
+      "low_lvl": "Low-level programming",
+      "sof": "Software Engineering",
+      "web": "Web Development (Frontend & Backend) and Networking"
     },
-    "education": {
-        "header" : "👨‍🎓 Education",
-        "university1" : {
-            "date" : "2019 - 2021",
-            "name" : "Riga Technical University",
-            "fac" : "Computer Systems"
-        },
-        "university2" : {
-            "date" : "2022 - 2024",
-            "name" : "ISMA University of Applied Sciences",
-            "fac" : "Information Systems and Software Engineering",
-            "thesis" : "Thesis on 'Developing a SPA with Chat and Pong Game Integration: A Full Stack Web Application'."
-        },
-        "university3" : {
-            "date" : "2021 - 2024",
-            "name" : "42 Wolfsburg",
-            "fac" : "Programming School ( 42 Ecole)",
-            "thesis" : "Relevant practice real world projects."
-        }
+    "prog_lan": "Programming Languages",
+    "prog_skills": {
+      "c": "C",
+      "c_plus": "C++",
+      "python": "Python (Django)",
+      "javascript": "JavaScript (React.js and Three.js)"
     },
-    "certificates" : {
-        "header" : "🥇 Certificates",
-        "cert": "42 Programming School Certificate of Successfully Completing Core Curriculum"
+    "databases": "Databases",
+    "databases_skill": {
+      "post": "PostgreSQL",
+      "lite": "SQLite"
     },
-    "languages": {
-        "header": "🌐 Languages",
-        "lang_skills": {
-            "english": "English",
-            "russian": "Russian",
-            "uzbek": "Uzbek"
-        }
+    "techno": "Technologies",
+    "tech_sk": {
+      "git": "Git",
+      "docker": "Docker",
+      "unix": "Unix (Ubuntu)",
+      "redis": "Redis"
+    }
+  },
+  "education": {
+    "header": "👨‍🎓 Education",
+    "university1": {
+      "date": "2019 - 2021",
+      "name": "Riga Technical University",
+      "fac": "Computer Systems"
     },
-    "projects": [
+    "university2": {
+      "date": "2022 - 2024",
+      "name": "ISMA University of Applied Sciences",
+      "fac": "Information Systems and Software Engineering",
+      "thesis": "Thesis: 'Developing SPA with Chat and Pong Game Integration: A Full-Stack Web Application.'"
+    },
+    "university3": {
+      "date": "2021 - 2024",
+      "name": "42 Wolfsburg",
+      "fac": "Programming School (42 Ecole)",
+      "thesis": "Relevant practice on real-world projects."
+    }
+  },
+  "certificates": {
+    "header": "🥇 Certificates",
+    "cert": "42 Programming School Certificate of Successfully Completing the Core Curriculum"
+  },
+  "languages": {
+    "header": "🌐 Languages",
+    "lang_skills": {
+      "english": "English",
+      "russian": "Russian",
+      "uzbek": "Uzbek"
+    }
+  },
+  "projects": [
     {
-      "header_main" : "🧪 Projects",
-      "overview": "These projects have equipped me with a robust understanding of programming fundamentals, problem-solving, and advanced technical concepts in various domains, including systems programming, web development, and cybersecurity.",
+      "header_main": "🧪 Projects",
+      "overview": "These projects helped me deepen my understanding of programming fundamentals, problem-solving, and advanced technical concepts in various fields, including systems programming, web development, and cybersecurity.",
       "header": "💻 C Programming Projects",
       "items": [
         {
           "name": "libft",
-          "purpose": "Recreated the standard C library functions from scratch.",
+          "purpose": "Recreated standard C library functions from scratch.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/libft" 
+          "link": "https://github.com/Cursedzyko/libft"
         },
         {
           "name": "ft_printf",
-          "purpose": "Implemented a custom printf function to mimic the standard printf.",
+          "purpose": "Implemented a custom printf function mimicking the standard printf.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/42projects" 
+          "link": "https://github.com/Cursedzyko/42projects"
         },
         {
           "name": "get_next_line",
           "purpose": "Developed a function to read lines from a file efficiently.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/42projects" 
+          "link": "https://github.com/Cursedzyko/42projects"
         },
         {
           "name": "push_swap",
           "purpose": "Created an algorithm to sort two stacks using sorting algorithms like insertion sort.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/push_swap" 
+          "link": "https://github.com/Cursedzyko/push_swap"
         },
         {
           "name": "so_long",
           "purpose": "Developed a simple 2D game.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/so_long" 
+          "link": "https://github.com/Cursedzyko/so_long"
         },
         {
           "name": "pipex",
           "purpose": "Implemented command forking and piping using system calls.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/pipex"
+          "link": "https://github.com/Cursedzyko/pipex"
         },
         {
           "name": "Philosophers",
           "purpose": "Solved the dining philosophers problem using multithreading.",
           "technologies_used": ["C", "Multithreading"],
-          "link" : "https://github.com/Cursedzyko/Philosophers" 
+          "link": "https://github.com/Cursedzyko/Philosophers"
         },
         {
           "name": "minishell",
-          "purpose": "Created a functional shell that mimics Bash shell features.",
+          "purpose": "Created a functional shell mimicking Bash shell features.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/minishell" 
+          "link": "https://github.com/Cursedzyko/minishell"
         }
       ]
     },
     {
-      "header": "🌐 Advanced Networking and Systems",
+      "header": "🌐 Networking and Systems",
       "items": [
         {
           "name": "NetPractice",
           "purpose": "Explored networking concepts such as MAC addresses and IP configurations.",
           "technologies_used": ["Networking"],
-          "link" : "https://github.com/Cursedzyko/NetPractice" 
+          "link": "https://github.com/Cursedzyko/NetPractice"
         },
         {
           "name": "born2beroot",
-          "purpose": "Configured a Debian Linux server on VirtualBox to enhance OS knowledge.",
-          "technologies_used": ["Linux", "VirtualBox"]
+          "purpose": "Configured a Debian Linux server on VirtualBox to deepen OS knowledge.",
+          "technologies_used": ["Linux", "VirtualBox"],
+          "link": "https://github.com/Cursedzyko/born2beroot"
         },
         {
           "name": "Inception",
           "purpose": "Learned and implemented Docker concepts, including creating Docker images and containers for nginx, WordPress, and MariaDB.",
           "technologies_used": ["Docker"],
-          "link" : "https://github.com/Cursedzyko/Inception" 
+          "link": "https://github.com/Cursedzyko/Inception"
         }
       ]
     },
@@ -144,21 +149,21 @@
       "items": [
         {
           "name": "CPPModules",
-          "purpose": "Started exploring Object-Oriented Programming and STL containers.",
+          "purpose": "Started learning object-oriented programming and STL containers.",
           "technologies_used": ["C++"],
-          "link" : "https://github.com/Cursedzyko/CPP_Modules" 
+          "link": "https://github.com/Cursedzyko/CPP_Modules"
         },
         {
           "name": "webserv",
           "purpose": "Created a web server implementing HTTP using socket programming.",
           "technologies_used": ["C++", "Socket Programming"],
-          "link" : "https://github.com/Cursedzyko/webserv"
+          "link": "https://github.com/Cursedzyko/webserv"
         },
         {
           "name": "Cub3d",
           "purpose": "Built a basic 3D game engine using raycasting.",
           "technologies_used": ["C"],
-          "link" : "https://github.com/Cursedzyko/Cub3d"
+          "link": "https://github.com/Cursedzyko/Cub3d"
         }
       ]
     },
@@ -169,13 +174,13 @@
           "name": "ft_transcendence",
           "purpose": "Created a single-page application with chat and multiplayer game features.",
           "technologies_used": ["HTML", "CSS", "VanillaJS", "Django", "Three.js", "PostgreSQL", "WebSockets", "Channels"],
-          "link" : "https://github.com/Cursedzyko/ft_transcendence"
+          "link": "https://github.com/Cursedzyko/ft_transcendence"
         },
         {
           "name": "Visual Studio Resume",
           "purpose": "Built a dynamic resume using React.js.",
           "technologies_used": ["React.js"],
-          "link" : "https://github.com/Cursedzyko/resume-react"
+          "link": "https://github.com/Cursedzyko/resume-react"
         }
       ]
     },
@@ -186,13 +191,13 @@
           "name": "Python for Data Science",
           "purpose": "Currently learning data science concepts using Python.",
           "technologies_used": ["Python"],
-          "link" : "https://github.com/Cursedzyko/Python_for_db_ps"
+          "link": "https://github.com/Cursedzyko/Python_for_db_ps"
         },
         {
           "name": "Cybersecurity Piscine",
-          "purpose": "Worked on multiple projects including hidden services (TOR), metadata analysis, reverse engineering, and developing a local malware program.",
+          "purpose": "Worked on projects including hidden services (TOR), metadata analysis, reverse engineering, and developing a local malware program.",
           "technologies_used": ["Python", "Cybersecurity Tools"],
-          "link" : "https://github.com/Cursedzyko/cybersecurity_piscine"
+          "link": "https://github.com/Cursedzyko/cybersecurity_piscine"
         }
       ]
     }
