@@ -1,24 +1,24 @@
 {
   "overview": {
     "header": "🌟 Overview",
-    "summary_header": "📝 Resume",
-    "summary_text": "Hello! My name is Zafarbek Yunusov, and I am 23 years old. I am seeking a job in the field of information technology, particularly in software development and system administration. My experience includes programming in C, C++, Python, as well as web development using JavaScript, React.js, and Django. I actively participate in projects with real-world requirements, such as creating games, servers, and web applications. Additionally, I am interested in cybersecurity and data science, which enables me to be a versatile specialist in the technology domain."
+    "summary_header": "📝 Resume (Contacts: +998949491329, zyunusov@gmail.com, zafarbek.yunusov@gmail.com)",
+    "summary_text": "Hello! My name is Zafarbek Yunusov, and I am a dedicated full-stack web developer with a strong foundation in React.js, Django, and TailwindCSS. I have hands-on experience building dynamic and responsive web applications, including blogs, to-do list apps, and e-commerce platforms. My background in system administration and software development allows me to approach projects with a deep understanding of both frontend and backend technologies. I am always eager to learn, improve, and contribute to impactful web solutions."
   },
   "skills": {
     "header": "💻 Skills",
     "tech_stack": "General Tech Stacks",
     "tech_stack_skills": {
-      "sys_ad": "System Administration",
-      "low_lvl": "Low-level programming",
+      "web": "Web Development (Frontend & Backend) and Networking",
       "sof": "Software Engineering",
-      "web": "Web Development (Frontend & Backend) and Networking"
+      "low_lvl": "Low-level programming",
+      "sys_ad": "System Administration"
     },
     "prog_lan": "Programming Languages",
     "prog_skills": {
       "c": "C",
       "c_plus": "C++",
       "python": "Python (Django)",
-      "javascript": "JavaScript (React.js and Three.js)"
+      "javascript": "JavaScript (React.js, Three.js)"
     },
     "databases": "Databases",
     "databases_skill": {
@@ -68,7 +68,36 @@
   "projects": [
     {
       "header_main": "🧪 Projects",
-      "overview": "These projects helped me deepen my understanding of programming fundamentals, problem-solving, and advanced technical concepts in various fields, including systems programming, web development, and cybersecurity.",
+      "overview": "These projects showcase my expertise in web development, backend engineering, and system programming, demonstrating my ability to build full-stack applications from scratch.",
+      "header": "🌟 Full-Stack and Web Development",
+      "items": [
+        {
+          "name": "Blog Project",
+          "purpose": "Developed a full-featured blog application with authentication, comments, and a sleek UI.",
+          "technologies_used": ["React.js", "TailwindCSS", "Django REST Framework", "PostgreSQL"],
+          "link": "https://github.com/zyunusov-zy/blog"
+        },
+        {
+          "name": "E-Commerce Platform",
+          "purpose": "Built a scalable multi-vendor e-commerce platform with role-based access control and payment integration.",
+          "technologies_used": ["React.js", "TailwindCSS", "Django", "PostgreSQL"],
+          "link": "https://github.com/zyunusov-zy/e_commerce"
+        },
+        {
+          "name": "To-Do List Application",
+          "purpose": "Created a to-do list application with authentication, task management, and responsive UI.",
+          "technologies_used": ["React.js", "FastAPI", "MongoDB"],
+          "link": "https://github.com/zyunusov-zy/to_do_list"
+        },
+        {
+          "name": "ft_transcendence",
+          "purpose": "Developed a SPA featuring chat and multiplayer game integration.",
+          "technologies_used": ["HTML", "CSS", "VanillaJS", "Django", "Three.js", "PostgreSQL", "WebSockets", "Channels"],
+          "link": "https://github.com/Cursedzyko/ft_transcendence"
+        }
+      ]
+    },
+    {
       "header": "💻 C Programming Projects",
       "items": [
         {
@@ -164,23 +193,6 @@
           "purpose": "Built a basic 3D game engine using raycasting.",
           "technologies_used": ["C"],
           "link": "https://github.com/Cursedzyko/Cub3d"
-        }
-      ]
-    },
-    {
-      "header": "🌟 Full-Stack and Web Development",
-      "items": [
-        {
-          "name": "ft_transcendence",
-          "purpose": "Created a single-page application with chat and multiplayer game features.",
-          "technologies_used": ["HTML", "CSS", "VanillaJS", "Django", "Three.js", "PostgreSQL", "WebSockets", "Channels"],
-          "link": "https://github.com/Cursedzyko/ft_transcendence"
-        },
-        {
-          "name": "Visual Studio Resume",
-          "purpose": "Built a dynamic resume using React.js.",
-          "technologies_used": ["React.js"],
-          "link": "https://github.com/Cursedzyko/resume-react"
         }
       ]
     },
