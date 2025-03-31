@@ -1,5 +1,5 @@
 {
-  "homepage": "https://zyunusov-zy.github.io/resume_react",
+  "homepage": "https://zyunusov-zy.github.io/resume_react/",
   "name": "resume_react",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "clean": "rm -rf node_modules/.cache/gh-pages",
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "gh-pages -d dist -f"
   },
   "dependencies": {
     "i18next": "^24.2.0",
